@@ -101,7 +101,7 @@ DeviceNetworkEvents
 ### 1. File Download - TOR Installer
 
 - **Timestamp:** `Jun 2, 2025 6:18:36 PM`
-- **Event:** The user "employee" downloaded a file named `tor-browser-windows-x86_64-portable-14.5.3.exe` to the Downloads folder.
+- **Event:** The user "labuser" downloaded a file named `tor-browser-windows-x86_64-portable-14.5.3.exe` to the Downloads folder.
 - **Action:** File download detected.
 - **File Path:** `C:\Users\labuser\Downloads\tor-browser-windows-x86_64-portable-14.5.3.exe`
 
@@ -116,7 +116,7 @@ DeviceNetworkEvents
 ### 3. Process Execution - TOR Browser Launch
 
 - **Timestamp:** `Jun 2, 2025 6:07:30 PM`
-- **Event:** User "employee" opened the TOR browser. Subsequent processes associated with TOR browser, such as `firefox.exe` and `tor.exe`, were also created, indicating that the browser launched successfully.
+- **Event:** User "labuser" opened the TOR browser. Subsequent processes associated with TOR browser, such as `firefox.exe` and `tor.exe`, were also created, indicating that the browser launched successfully.
 - **Action:** Process creation of TOR browser-related executables detected.
 - **File Path:** `C:\Users\labuser\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe`
 
