@@ -31,7 +31,7 @@ Searched for any file that had the string "tor" in it and discovered what looks 
 
 ```kql
 DeviceFileEvents  
-| where DeviceName == "threat-hunt-lab"  
+| where DeviceName == "kron"  
 | where InitiatingProcessAccountName == "labuser"  
 | where FileName contains "tor"   
 | order by Timestamp asc
